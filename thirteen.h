@@ -2187,7 +2187,7 @@ namespace Thirteen
 
         // Update title bar every 0.25 seconds
         titleUpdateTimer += lastDeltaTime;
-        if (titleUpdateTimer >= 0.25)
+        if (titleUpdateTimer >= 1.0)
         {
             titleUpdateTimer = 0.0;
             char titleBuffer[256];
